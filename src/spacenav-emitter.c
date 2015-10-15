@@ -14,12 +14,6 @@
 * limitations under the License.
 */
 
-/*
-** This turns on the LED of a 3DConnection Space Navigator device:
-** $ led-enable /dev/input/spacenavigator [1|0]
-** where 1 is "on" and 0 is "off"
-*/
-
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <sys/stat.h>
