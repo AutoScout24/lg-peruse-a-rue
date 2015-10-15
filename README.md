@@ -23,6 +23,40 @@ While in the Peruse-a-Rue git root:
 
     $ npm install
 
+### Using the spacenav-emitter
+
+To use a SpaceNavigator with the Peruse-a-Rue server, you must first compile
+and run the spacenav-emitter binary.  This tool reads events from the
+SpaceNavigator and emits them as UDP datagrams, which allows you to attach the
+SpaceNav to a different host than the Peruse server.
+
+First, compile the binary:
+
+    $ gcc -o spacenav-emitter src/spacenav-emitter.c
+
+Now find the SpaceNav device.  It should be symlinked from `/dev/input/by-id`:
+
+    $ ls -l /dev/input/by-id
+    total 0
+    lrwxrwxrwx 1 root root 9 Oct 13 16:54 usb-3Dconnexion_SpaceNavigator-event-if00 -> ../event8
+    lrwxrwxrwx 1 root root 9 Sep 23 22:08 usb-Logitech_USB_Receiver-if02-event-kbd -> ../event3
+    lrwxrwxrwx 1 root root 9 Sep 23 22:08 usb-Logitech_USB_Receiver-if02-event-mouse -> ../event2
+    lrwxrwxrwx 1 root root 9 Sep 23 22:08 usb-Logitech_USB_Receiver-if02-mouse -> ../mouse0
+
+You may need to fix the permissions:
+
+    $ sudo chmod 0644 /dev/input/by-id/usb-3Dconnexion_SpaceNavigator-event-if00
+
+Now run spacnav-emitter, directing it at the Peruse-a-Rue UDP port:
+
+    $ ./spacenav-emitter /dev/input/by-id/usb-3Dconnexion_SpaceNavigator-event-if00 127.0.0.1 8086
+
+You can use socat to verify that data is coming through on the receiving host:
+
+    $ socat UDP-LISTEN:8086 STDOUT
+
+You should see a bunch of gibberish when you move the SpaceNav.
+
 ### Usage
 
 The Peruse-a-Rue server can be started with the launcher script:
