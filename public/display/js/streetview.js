@@ -215,9 +215,14 @@ function(config, L, validate, Stapes, GMaps, sv_svc) {
         return;
       }
       var pov = this.streetview.getPov();
-      pov.pitch = 0;
-      pov.zoom = this.zoom;
-      this.setPov(pov);
+      if (pov.pitch != 0) {
+        pov.pitch = 0;
+        this.setPov(pov);
+      }
+      var zoom = this.streetview.getZoom();
+      if (zoom != this.zoom) {
+        this.streetview.setZoom(this.zoom);
+      }
     },
 
     // *** setHdg(heading)
