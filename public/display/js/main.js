@@ -36,7 +36,7 @@ requirejs.config({
     'config': { exports: 'config' },
     'googlemaps': {
       deps: [
-        'async!http://maps.googleapis.com/maps/api/js?v=3.21&sensor=false!callback'
+        'async!http://maps.googleapis.com/maps/api/js?v=3.22!callback'
       ]
     }
   },
