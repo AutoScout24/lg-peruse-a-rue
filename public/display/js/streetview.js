@@ -54,7 +54,7 @@ function(config, L, validate, Stapes, GMaps, sv_svc) {
 
     PANO_POV_DELAY_FRAMES: 20,
 
-    constructor: function($canvas, master) {
+    constructor: function($canvas, master, zoom) {
       this.$canvas = $canvas;
       this.master = master;
       this.map = null;
@@ -62,7 +62,7 @@ function(config, L, validate, Stapes, GMaps, sv_svc) {
       this.meta = null;
       this.pov = null;
       this.mode = config.display.mode;
-      this.zoom = config.display.zoom;
+      this.zoom = zoom;
       this.fov_table = this.SV_HFOV_TABLES[this.mode];
       this.hfov = this.fov_table[this.zoom];
       this.vfov = null;
@@ -74,7 +74,7 @@ function(config, L, validate, Stapes, GMaps, sv_svc) {
     // *** init()
     // should be called once when ready to set Maps API into motion
     init: function() {
-      console.debug('StreetView: init');
+      console.log('StreetView: init', this);
 
       var self = this;
 
@@ -120,13 +120,13 @@ function(config, L, validate, Stapes, GMaps, sv_svc) {
         this.$canvas,
         svOptions
       );
-
       // *** init streetview pov
       this.pov = {
         heading: 0,
         pitch: 0,
         zoom: this.zoom
       };
+		console.log('pov', this.pov);
       this.streetview.setPov(this.pov);
 
       // *** set the display mode as specified in global configuration
