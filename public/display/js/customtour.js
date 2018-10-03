@@ -25,7 +25,9 @@ define(
 			// varies per render mode
 			SV_HFOV_TABLES: {
 				"webgl": [127, 90, 53.5, 28.125, 14.25],
-				"html5": [127, 90, 53.5, 28.125, 14.25]
+				"html4": [180, 90, 45, 22.5, 11.25],
+				"html5": [127, 90, 53.5, 28.125, 14.25],
+				"flash": [180, 90, 45, 22.5, 11.25]
 			},
 
 			PANO_POV_DELAY_FRAMES: 20,
