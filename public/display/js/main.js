@@ -37,7 +37,8 @@ requirejs.config({
     'config': { exports: 'config' },
     'googlemaps': {
       deps: [
-        'async!http://maps.googleapis.com/maps/api/js?v=3.29!callback'
+        // 'async!http://maps.googleapis.com/maps/api/js?v=3.34!callback'
+        'async!http://maps.googleapis.com/maps/api/js?v=3.34&key=AIzaSyD6XQkEBY-ZlG6_2MwRvibpWXd3N58CEKE!callback'
       ]
     }
   },
@@ -64,7 +65,7 @@ require(
     pitchoffset : ('pitchoffset' in fields) ? fields.pitchoffset : 0,
     rolloffset  : ('rolloffset' in fields)  ? fields.rolloffset  : 0,
     pano        : ('pano' in fields)        ? fields.pano        : null,
-    tour        : ('tour' in fields)        ? fields.tour        : null,
+    tour        : ('tour' in fields)        ? fields.tour        : '1106604',
 	zoom        : ('zoom' in fields)        ? Number(fields.zoom)        : 3,
     heading     : ('heading' in fields)     ? Number(fields.heading)     : null
   };

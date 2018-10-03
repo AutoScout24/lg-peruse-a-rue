@@ -372,7 +372,7 @@ function(config, L, validate, Stapes, GMaps, sv_svc) {
 				}
 
 				var pov1 = this.streetview.getPov();
-      if (this.pov.heading !== pov1.heading || this.pov.pitch !== pov1.pitch) {
+				if (this.pov.heading !== pov1.heading || this.pov.pitch !== pov1.pitch) {
 					this.streetview.setPov(this.pov);
 				}
 			}
