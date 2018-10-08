@@ -30,7 +30,7 @@ define(['jquery', 'config'], function($, config) {
                     "HD1606":        "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/1606-images/srv_5504t7jh7m.JPG?v=1538039519366",
                     "THUMB":         "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/thumb-images/srv_5504t7jh7m.JPG?v=1538039519366",
                     "EDITOR_COPY":   "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/editor-copy/srv_5504t7jh7m.JPG?v=1538039519366",
-                    "ORIGINAL_PATH": "http://lg8:8086/static/wohnzimmer.jpg",
+                    "ORIGINAL_PATH": "/static/wohnzimmer.jpg",
                     "SMALL":         "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/150-images/srv_5504t7jh7m.JPG?v=1538039519366",
                     "FULL":          "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/srv_5504t7jh7m.JPG?v=1538039519366",
                     "HD1080":        "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/1080-images/srv_5504t7jh7m.JPG?v=1538039519366"
@@ -179,7 +179,7 @@ define(['jquery', 'config'], function($, config) {
                     "HD1606":        "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/1606-images/srv_h7f7uyj6je.JPG?v=1538039493579",
                     "THUMB":         "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/thumb-images/srv_h7f7uyj6je.JPG?v=1538039493579",
                     "EDITOR_COPY":   "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/editor-copy/srv_h7f7uyj6je.JPG?v=1538039493579",
-                    "ORIGINAL_PATH": "http://lg8:8086/static/schlafzimmer.jpg",
+                    "ORIGINAL_PATH": "/static/schlafzimmer.jpg",
                     "SMALL":         "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/150-images/srv_h7f7uyj6je.JPG?v=1538039493579",
                     "FULL":          "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/srv_h7f7uyj6je.JPG?v=1538039493579",
                     "HD1080":        "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/1080-images/srv_h7f7uyj6je.JPG?v=1538039493579"
@@ -210,7 +210,7 @@ define(['jquery', 'config'], function($, config) {
                     "HD1606":        "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/1606-images/srv_lmrehy6q0l.JPG?v=1538039498249",
                     "THUMB":         "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/thumb-images/srv_lmrehy6q0l.JPG?v=1538039498249",
                     "EDITOR_COPY":   "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/editor-copy/srv_lmrehy6q0l.JPG?v=1538039498249",
-                    "ORIGINAL_PATH": "http://lg8:8086/static/badezimmer.jpg",
+                    "ORIGINAL_PATH": "/static/badezimmer.jpg",
                     "SMALL":         "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/150-images/srv_lmrehy6q0l.JPG?v=1538039498249",
                     "FULL":          "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/srv_lmrehy6q0l.JPG?v=1538039498249",
                     "HD1080":        "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/1080-images/srv_lmrehy6q0l.JPG?v=1538039498249"
@@ -241,7 +241,7 @@ define(['jquery', 'config'], function($, config) {
                     "HD1606":        "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/1606-images/srv_409pc56o57.JPG?v=1538039502098",
                     "THUMB":         "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/thumb-images/srv_409pc56o57.JPG?v=1538039502098",
                     "EDITOR_COPY":   "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/editor-copy/srv_409pc56o57.JPG?v=1538039502098",
-                    "ORIGINAL_PATH": "http://lg8:8086/static/badezimmer2.jpg",
+                    "ORIGINAL_PATH": "/static/badezimmer2.jpg",
                     "SMALL":         "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/150-images/srv_409pc56o57.JPG?v=1538039502098",
                     "FULL":          "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/srv_409pc56o57.JPG?v=1538039502098",
                     "HD1080":        "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/1080-images/srv_409pc56o57.JPG?v=1538039502098"
@@ -303,7 +303,7 @@ define(['jquery', 'config'], function($, config) {
                     "HD1606":        "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/1606-images/srv_ecjrb87u49.JPG?v=1538039522152",
                     "THUMB":         "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/thumb-images/srv_ecjrb87u49.JPG?v=1538039522152",
                     "EDITOR_COPY":   "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/editor-copy/srv_ecjrb87u49.JPG?v=1538039522152",
-                    "ORIGINAL_PATH": "http://lg8:8086/static/kueche.jpg",
+                    "ORIGINAL_PATH": "/static/kueche.jpg",
                     "SMALL":         "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/150-images/srv_ecjrb87u49.JPG?v=1538039522152",
                     "FULL":          "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/srv_ecjrb87u49.JPG?v=1538039522152",
                     "HD1080":        "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/1080-images/srv_ecjrb87u49.JPG?v=1538039522152"
@@ -334,7 +334,7 @@ define(['jquery', 'config'], function($, config) {
                     "HD1606":        "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/1606-images/srv_ud93878i0c.JPG?v=1538039522367",
                     "THUMB":         "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/thumb-images/srv_ud93878i0c.JPG?v=1538039522367",
                     "EDITOR_COPY":   "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/editor-copy/srv_ud93878i0c.JPG?v=1538039522367",
-                    "ORIGINAL_PATH": "http://lg8:8086/static/balkon.jpg",
+                    "ORIGINAL_PATH": "/static/balkon.jpg",
                     "SMALL":         "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/150-images/srv_ud93878i0c.JPG?v=1538039522367",
                     "FULL":          "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/srv_ud93878i0c.JPG?v=1538039522367",
                     "HD1080":        "https://images-virtualtours.immobilienscout24.de/items/meisterimmobilien_inf/5bac9eabc9e77c004f5669f3/Tour/1080-images/srv_ud93878i0c.JPG?v=1538039522367"
