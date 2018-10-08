@@ -462,7 +462,7 @@ define(['jquery', 'config'], function($, config) {
                         tileSize:  new google.maps.Size(8192 , 4096),
                         worldSize: new google.maps.Size(8192 , 4096),
 
-                        centerHeading: 10,
+                        centerHeading: 105,
                         getTileUrl:    function() {
                             return panorama.fileUrls.ORIGINAL_PATH
                         }
