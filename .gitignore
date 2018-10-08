@@ -1,5 +1,4 @@
 node_modules/
-*.jpg
 *.swp
 *.png
 public/stylesheets/*.css
